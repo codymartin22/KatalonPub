@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TestSuite1</name>
+   <name>TS_1</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,35 +10,35 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>4682daf0-0c2f-446b-a7ee-507f85f1a6b3</testSuiteGuid>
+   <testSuiteGuid>c54902b6-154d-471a-bee2-4f7b264a510e</testSuiteGuid>
    <testCaseLink>
-      <guid>737bcd21-0cd6-4dc6-9d74-1f9aba876b2a</guid>
+      <guid>22623cec-d192-4412-9283-95cae6824b2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCaseTrue</testCaseId>
+      <testCaseId>Test Cases/TC_1</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2666b557-638e-49eb-ad54-8132a2a8d7d1</guid>
+      <guid>51a3afa4-c2a9-48ee-8811-204cbddedf09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCaseWrong</testCaseId>
+      <testCaseId>Test Cases/TC_2</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>68b2dddd-0dd5-4e82-805b-8cdbf345c828</guid>
+      <guid>1fa417df-e2af-45be-9788-7e40e824ac91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCaseWrong2</testCaseId>
+      <testCaseId>Test Cases/TC_3</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f751ba96-c7e5-445e-b6a1-7cc2c12209d1</guid>
+      <guid>8790e825-809b-4447-ac04-17276345b6f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCaseWrong3</testCaseId>
+      <testCaseId>Test Cases/TC_4</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>54ba980a-6291-414c-9954-4f70b43b404b</guid>
+      <guid>0dd14a9e-e2c7-49ef-863e-6e47c12a8351</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCaseWrong4</testCaseId>
+      <testCaseId>Test Cases/TC_5</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
