@@ -18,15 +18,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(urlExcel)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John$!#&^%@*!^Doe')
+WebUI.setText(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/input_Username_username'), UsernameExcel)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'b/98lgFmTtuoWj2Vy1P4XdVxjtt8oW58KBAKiyrOhuU=')
+WebUI.setText(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/input_Password_password'), PasswordExcel)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('KatalonDemo/Page_CURA Healthcare Service/h2_Make Appointment'), 5)
 
 WebUI.closeBrowser()
 

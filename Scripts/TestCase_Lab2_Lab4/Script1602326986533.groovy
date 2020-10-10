@@ -18,15 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+WebUI.setText(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/input_Username_username'), GlobalVariable.UserName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'ecCRzUxU9HgV2EfGNBc36XgLoQPhvrAW80CeZFtaOve3LsaxTc+k4tJEfb6ZRBe/ubeBAbGybAUoLr6NgXu/ysFQ8G1zkLUCfItbLB3+hbM=')
+WebUI.setText(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/input_Password_password'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.waitForElementPresent(findTestObject('KatalonDemo/Page_CURA Healthcare Service/h2_Make Appointment'), 10)
+
+WebUI.verifyElementText(findTestObject('KatalonDemo/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment')
 
 WebUI.closeBrowser()
 

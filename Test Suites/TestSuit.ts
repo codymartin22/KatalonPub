@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestSuit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>66e1b8f6-132c-410c-8731-911d665d33f0</testSuiteGuid>
+   <testCaseLink>
+      <guid>2229da41-2e13-4085-83e1-4fea0a5907c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCaseTrue</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>452fa0b7-5666-4adc-ba17-b3247dcb32e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCaseWrong4</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>efce96a2-5d40-4786-a990-1ba968237243</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase_Lab2_Lab4</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c80598d-517e-43bc-995d-bcd0ac835663</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase_UseVariable</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8ae83fce-a467-4999-b151-beebdde2adb4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ec57a52-0a43-4f62-a560-311615ab56e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0babbe55-1fa2-45ae-9a53-b300b75116de</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae03248f-62fb-4d1e-a0b8-406d82034e01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase_UserDataFromExcel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4ca959ea-629d-4b6f-a8ee-c3945959532e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4ca959ea-629d-4b6f-a8ee-c3945959532e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>urlExcelA</value>
+         <variableId>22568ccb-9837-46dc-8a59-0019b7a84e4a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4ca959ea-629d-4b6f-a8ee-c3945959532e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UsernameExcelA</value>
+         <variableId>d39614c6-5ace-40d0-9cf8-7090da23d0bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4ca959ea-629d-4b6f-a8ee-c3945959532e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PasswordExcelA</value>
+         <variableId>76e7799e-60b7-4d16-b1ea-184bfa35cf9a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
