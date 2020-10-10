@@ -28,9 +28,7 @@ WebUI.setText(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare
 
 WebUI.click(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
-WebUI.click(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/a_Logout'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/KatalonDemo/Page_CURA Healthcare Service/a_Logout'), 3)
 
 WebUI.closeBrowser()
 
